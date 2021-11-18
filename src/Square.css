@@ -1,0 +1,21 @@
+.square {
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    background-color: #ecebeb;
+    color: black;
+    transition: all .4s ease-out;
+}
+.square:disabled {
+    background-color: #ecebeb;
+}
+.square.winner {
+    background-color: lightgreen;
+    transition: all .4s ease-out;
+}
